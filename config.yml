@@ -2,3 +2,8 @@ logging:
   level: INFO
   loggers:
     com.example: DEBUG
+oktaOAuth:
+  baseUrl: https://dev-5063665.okta.com
+  issuer: "https://dev-5063665.okta.com/oauth2/default"
+  clientId: "0oa1f87ndHWUDG6935d6"
+  audience: "api://default"  # defaults to 'api://default'

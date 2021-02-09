@@ -6,5 +6,5 @@ import org.hibernate.validator.constraints.*;
 import javax.validation.constraints.*;
 
 public class DemoConfiguration extends Configuration {
-    // TODO: implement service configuration
+    public OktaOAuthConfig oktaOAuth = new OktaOAuthConfig();
 }
